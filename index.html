@@ -2,7 +2,7 @@
 <html class="no-js">
     <head>
         <meta charset="utf-8">
-        <title>ATM Kata</title>
+        <title>Coin Changer</title>
         <meta name="description" content="">
 
         <link rel="stylesheet" href="static/css/normalize.css">
@@ -12,29 +12,19 @@
     <body>
       <div class="container">
         <div class="atm_machine">
-          <h1>ATM</h1>
-          <div class="accountNumber">
-            <label>Account Number:</label>
-            <input data-id="accountNumber"/></div>
-          <div class="PIN">
-            <label>PIN Number:</label>
-            <input data-id="PIN" type="password"/></div>
+          <h1>Coin Changer</h1>
           <div class="amount">
-            <label>Withdraw Amount:</label>
+            <label>Amount:</label>
             <input data-id="amount"/></div>
-          <div class="accountBalance">
-            <label>Account Balance:</label>
-            <input data-id="accountBalance" disabled /></div>
           <div class="moneyTray">
-            <label>Cash Tray:</label>
-            <input data-id="cashTray" disabled /></div>
-          <button data-id="withdraw">Withdraw</button>
+            <label>Change Tray:</label>
+            <input data-id="changeTray" disabled /></div>
+          <button data-id="change">Get Change</button>
         </div>
       </div>
 
         <script src="static/vendor/jquery-2.1.0.min.js"></script>
-        <script src="src/bank.js"></script>
-        <script src="src/atm.js"></script>
+        <script src="src/coin_changer.js"></script>
         <script src="src/main.js"></script>
 
     </body>

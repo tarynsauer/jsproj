@@ -1,4 +1,0 @@
-describe("Atm", function() {
-
-
-});
